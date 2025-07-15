@@ -1,0 +1,495 @@
+[
+  {
+    "label": "Loyal",
+    "confidence": 87.0,
+    "input": {
+      "age": 34,
+      "gender": "Female",
+      "country": "USA",
+      "avg_order_value": 120.0,
+      "total_orders": 25,
+      "last_purchase": 13,
+      "preferred_category": "Apparel",
+      "email_open_rate": 0.95,
+      "loyalty_score": 92,
+      "churn_risk": 0.02
+    },
+    "timestamp": "2025-07-14T16:52:53.650833"
+  },
+  {
+    "label": "Normal",
+    "confidence": 95.0,
+    "input": {
+      "age": 28,
+      "gender": "Other",
+      "country": "Canada",
+      "avg_order_value": 75.0,
+      "total_orders": 10,
+      "last_purchase": 34,
+      "preferred_category": "Books",
+      "email_open_rate": 0.5,
+      "loyalty_score": 48,
+      "churn_risk": 0.3
+    },
+    "timestamp": "2025-07-14T16:53:04.884332"
+  },
+  {
+    "label": "Loyal",
+    "confidence": 87.0,
+    "input": {
+      "age": 34,
+      "gender": "Female",
+      "country": "USA",
+      "avg_order_value": 120.0,
+      "total_orders": 25,
+      "last_purchase": 13,
+      "preferred_category": "Apparel",
+      "email_open_rate": 0.95,
+      "loyalty_score": 92,
+      "churn_risk": 0.02
+    },
+    "timestamp": "2025-07-14T16:56:19.882860"
+  },
+  {
+    "label": "Normal",
+    "confidence": 77.0,
+    "input": {
+      "age": 45,
+      "gender": "Male",
+      "country": "Nigeria",
+      "avg_order_value": 320.0,
+      "total_orders": 3,
+      "last_purchase": 439,
+      "preferred_category": "Electronics",
+      "email_open_rate": 0.1,
+      "loyalty_score": 12,
+      "churn_risk": 0.8
+    },
+    "timestamp": "2025-07-14T17:01:20.166016"
+  },
+  {
+    "label": "Normal",
+    "confidence": 95.0,
+    "input": {
+      "age": 28,
+      "gender": "Other",
+      "country": "Canada",
+      "avg_order_value": 75.0,
+      "total_orders": 10,
+      "last_purchase": 34,
+      "preferred_category": "Books",
+      "email_open_rate": 0.5,
+      "loyalty_score": 48,
+      "churn_risk": 0.3
+    },
+    "timestamp": "2025-07-14T17:01:24.033538"
+  },
+  {
+    "label": "Normal",
+    "confidence": 77.0,
+    "input": {
+      "age": 45,
+      "gender": "Male",
+      "country": "Nigeria",
+      "avg_order_value": 320.0,
+      "total_orders": 3,
+      "last_purchase": 439,
+      "preferred_category": "Electronics",
+      "email_open_rate": 0.1,
+      "loyalty_score": 12,
+      "churn_risk": 0.8
+    },
+    "timestamp": "2025-07-14T17:01:27.996702"
+  },
+  {
+    "label": "Normal",
+    "confidence": 77.0,
+    "input": {
+      "age": 45,
+      "gender": "Male",
+      "country": "Nigeria",
+      "avg_order_value": 320.0,
+      "total_orders": 3,
+      "last_purchase": 439,
+      "preferred_category": "Electronics",
+      "email_open_rate": 0.1,
+      "loyalty_score": 12,
+      "churn_risk": 0.8
+    },
+    "timestamp": "2025-07-14T17:01:36.735317"
+  },
+  {
+    "label": "Loyal",
+    "confidence": 87.0,
+    "input": {
+      "age": 34,
+      "gender": "Female",
+      "country": "USA",
+      "avg_order_value": 120.0,
+      "total_orders": 25,
+      "last_purchase": 13,
+      "preferred_category": "Apparel",
+      "email_open_rate": 0.95,
+      "loyalty_score": 92,
+      "churn_risk": 0.02
+    },
+    "timestamp": "2025-07-14T17:01:43.120177"
+  },
+  {
+    "label": "Normal",
+    "confidence": 95.0,
+    "input": {
+      "age": 28,
+      "gender": "Other",
+      "country": "Canada",
+      "avg_order_value": 75.0,
+      "total_orders": 10,
+      "last_purchase": 34,
+      "preferred_category": "Books",
+      "email_open_rate": 0.5,
+      "loyalty_score": 48,
+      "churn_risk": 0.3
+    },
+    "timestamp": "2025-07-14T17:01:45.934806"
+  },
+  {
+    "label": "Normal",
+    "confidence": 77.0,
+    "input": {
+      "age": 45,
+      "gender": "Male",
+      "country": "Nigeria",
+      "avg_order_value": 320.0,
+      "total_orders": 3,
+      "last_purchase": 439,
+      "preferred_category": "Electronics",
+      "email_open_rate": 0.1,
+      "loyalty_score": 12,
+      "churn_risk": 0.8
+    },
+    "timestamp": "2025-07-14T17:01:49.091575"
+  },
+  {
+    "label": "Normal",
+    "confidence": 77.0,
+    "input": {
+      "age": 45,
+      "gender": "Male",
+      "country": "Nigeria",
+      "avg_order_value": 320.0,
+      "total_orders": 3,
+      "last_purchase": 439,
+      "preferred_category": "Electronics",
+      "email_open_rate": 0.1,
+      "loyalty_score": 12,
+      "churn_risk": 0.8
+    },
+    "timestamp": "2025-07-14T17:01:51.614430"
+  },
+  {
+    "label": "Normal",
+    "confidence": 77.0,
+    "input": {
+      "age": 45,
+      "gender": "Male",
+      "country": "Nigeria",
+      "avg_order_value": 320.0,
+      "total_orders": 3,
+      "last_purchase": 439,
+      "preferred_category": "Electronics",
+      "email_open_rate": 0.1,
+      "loyalty_score": 12,
+      "churn_risk": 0.8
+    },
+    "timestamp": "2025-07-14T17:01:53.570827"
+  },
+  {
+    "label": "Normal",
+    "confidence": 71.0,
+    "input": {
+      "age": 45,
+      "gender": "Male",
+      "country": "Nigeria",
+      "avg_order_value": 320.0,
+      "total_orders": 1,
+      "last_purchase": 439,
+      "preferred_category": "Electronics",
+      "email_open_rate": 0.1,
+      "loyalty_score": 12,
+      "churn_risk": 0.8
+    },
+    "timestamp": "2025-07-14T17:02:04.269965"
+  },
+  {
+    "label": "Normal",
+    "confidence": 71.0,
+    "input": {
+      "age": 45,
+      "gender": "Male",
+      "country": "Nigeria",
+      "avg_order_value": 320.0,
+      "total_orders": 1,
+      "last_purchase": 439,
+      "preferred_category": "Electronics",
+      "email_open_rate": 0.1,
+      "loyalty_score": 12,
+      "churn_risk": 0.8
+    },
+    "timestamp": "2025-07-14T17:02:05.626934"
+  },
+  {
+    "label": "Normal",
+    "confidence": 71.0,
+    "input": {
+      "age": 45,
+      "gender": "Male",
+      "country": "Nigeria",
+      "avg_order_value": 320.0,
+      "total_orders": 1,
+      "last_purchase": 439,
+      "preferred_category": "Electronics",
+      "email_open_rate": 0.1,
+      "loyalty_score": 12,
+      "churn_risk": 0.8
+    },
+    "timestamp": "2025-07-14T17:02:07.233337"
+  },
+  {
+    "label": "Normal",
+    "confidence": 77.0,
+    "input": {
+      "age": 45,
+      "gender": "Male",
+      "country": "Nigeria",
+      "avg_order_value": 320.0,
+      "total_orders": 3,
+      "last_purchase": 439,
+      "preferred_category": "Electronics",
+      "email_open_rate": 0.1,
+      "loyalty_score": 12,
+      "churn_risk": 0.8
+    },
+    "timestamp": "2025-07-14T17:02:09.747900"
+  },
+  {
+    "label": "Loyal",
+    "confidence": 87.0,
+    "input": {
+      "age": 34,
+      "gender": "Female",
+      "country": "USA",
+      "avg_order_value": 120.0,
+      "total_orders": 25,
+      "last_purchase": 13,
+      "preferred_category": "Apparel",
+      "email_open_rate": 0.95,
+      "loyalty_score": 92,
+      "churn_risk": 0.02
+    },
+    "timestamp": "2025-07-14T17:02:33.575360"
+  },
+  {
+    "label": "Normal",
+    "confidence": 95.0,
+    "input": {
+      "age": 28,
+      "gender": "Other",
+      "country": "Canada",
+      "avg_order_value": 75.0,
+      "total_orders": 10,
+      "last_purchase": 34,
+      "preferred_category": "Books",
+      "email_open_rate": 0.5,
+      "loyalty_score": 48,
+      "churn_risk": 0.3
+    },
+    "timestamp": "2025-07-14T17:02:36.225803"
+  },
+  {
+    "label": "Normal",
+    "confidence": 77.0,
+    "input": {
+      "age": 45,
+      "gender": "Male",
+      "country": "Nigeria",
+      "avg_order_value": 320.0,
+      "total_orders": 3,
+      "last_purchase": 439,
+      "preferred_category": "Electronics",
+      "email_open_rate": 0.1,
+      "loyalty_score": 12,
+      "churn_risk": 0.8
+    },
+    "timestamp": "2025-07-14T17:02:38.282436"
+  },
+  {
+    "label": "Normal",
+    "confidence": 55.0,
+    "input": {
+      "age": 32,
+      "gender": "Male",
+      "country": "India",
+      "avg_order_value": 1332.22,
+      "total_orders": 2,
+      "last_purchase": 366,
+      "preferred_category": "Luxury",
+      "email_open_rate": 0.1,
+      "loyalty_score": 12,
+      "churn_risk": 0.86
+    },
+    "timestamp": "2025-07-14T17:06:05.719722"
+  },
+  {
+    "label": "Normal",
+    "confidence": 77.0,
+    "input": {
+      "age": 45,
+      "gender": "Male",
+      "country": "Nigeria",
+      "avg_order_value": 320.0,
+      "total_orders": 3,
+      "last_purchase": 439,
+      "preferred_category": "Electronics",
+      "email_open_rate": 0.1,
+      "loyalty_score": 12,
+      "churn_risk": 0.8
+    },
+    "timestamp": "2025-07-14T17:09:25.704312"
+  },
+  {
+    "label": "Normal",
+    "confidence": 75.0,
+    "input": {
+      "age": 25,
+      "gender": "Male",
+      "country": "india",
+      "avg_order_value": 320.0,
+      "total_orders": 3,
+      "last_purchase": 439,
+      "preferred_category": "Electronics",
+      "email_open_rate": 0.1,
+      "loyalty_score": 12,
+      "churn_risk": 0.8
+    },
+    "timestamp": "2025-07-14T17:09:34.321859"
+  },
+  {
+    "label": "Normal",
+    "confidence": 80.0,
+    "input": {
+      "age": 25,
+      "gender": "Male",
+      "country": "india",
+      "avg_order_value": 150.0,
+      "total_orders": 3,
+      "last_purchase": 439,
+      "preferred_category": "Electronics",
+      "email_open_rate": 0.1,
+      "loyalty_score": 12,
+      "churn_risk": 0.8
+    },
+    "timestamp": "2025-07-14T17:09:47.696441"
+  },
+  {
+    "label": "Normal",
+    "confidence": 70.0,
+    "input": {
+      "age": 25,
+      "gender": "Male",
+      "country": "india",
+      "avg_order_value": 150.0,
+      "total_orders": 3,
+      "last_purchase": 439,
+      "preferred_category": "Electronics",
+      "email_open_rate": 0.02,
+      "loyalty_score": 12,
+      "churn_risk": 0.8
+    },
+    "timestamp": "2025-07-14T17:09:55.588371"
+  },
+  {
+    "label": "Normal",
+    "confidence": 70.0,
+    "input": {
+      "age": 25,
+      "gender": "Male",
+      "country": "india",
+      "avg_order_value": 150.0,
+      "total_orders": 3,
+      "last_purchase": 433,
+      "preferred_category": "Electronics",
+      "email_open_rate": 0.02,
+      "loyalty_score": 12,
+      "churn_risk": 0.8
+    },
+    "timestamp": "2025-07-14T17:10:10.514788"
+  },
+  {
+    "label": "Fraudulent",
+    "confidence": 77.0,
+    "input": {
+      "age": 45,
+      "gender": "Male",
+      "country": "Nigeria",
+      "avg_order_value": 320.0,
+      "total_orders": 3,
+      "last_purchase": 439,
+      "preferred_category": "Electronics",
+      "email_open_rate": 0.1,
+      "loyalty_score": 12,
+      "churn_risk": 0.8
+    },
+    "timestamp": "2025-07-14T17:11:32.367769"
+  },
+  {
+    "label": "Fraudulent",
+    "confidence": 77.0,
+    "input": {
+      "age": 45,
+      "gender": "Male",
+      "country": "Nigeria",
+      "avg_order_value": 320.0,
+      "total_orders": 3,
+      "last_purchase": 439,
+      "preferred_category": "Electronics",
+      "email_open_rate": 0.1,
+      "loyalty_score": 12,
+      "churn_risk": 0.8
+    },
+    "timestamp": "2025-07-14T17:11:36.957165"
+  },
+  {
+    "label": "Normal",
+    "confidence": 95.0,
+    "input": {
+      "age": 28,
+      "gender": "Other",
+      "country": "Canada",
+      "avg_order_value": 75.0,
+      "total_orders": 10,
+      "last_purchase": 34,
+      "preferred_category": "Books",
+      "email_open_rate": 0.5,
+      "loyalty_score": 48,
+      "churn_risk": 0.3
+    },
+    "timestamp": "2025-07-14T17:11:49.415276"
+  },
+  {
+    "label": "Loyal",
+    "confidence": 87.0,
+    "input": {
+      "age": 34,
+      "gender": "Female",
+      "country": "USA",
+      "avg_order_value": 120.0,
+      "total_orders": 25,
+      "last_purchase": 13,
+      "preferred_category": "Apparel",
+      "email_open_rate": 0.95,
+      "loyalty_score": 92,
+      "churn_risk": 0.02
+    },
+    "timestamp": "2025-07-14T17:11:51.591359"
+  }
+]

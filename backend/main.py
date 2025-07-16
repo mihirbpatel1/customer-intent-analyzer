@@ -6,14 +6,17 @@ import numpy as np
 import joblib
 import json
 import os
-from datetime import date, datetime  # ✅ Added datetime
+from datetime import date, datetime  
 
 app = FastAPI()
 
 # CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+     allow_origins=[
+        "https://mihirbpatel1.github.io/customer-intent-analyzer/",  # ← add your GitHub Pages URL
+        "http://localhost:3000",              # ← for local testing
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

@@ -123,9 +123,10 @@ export default function App() {
     <div className="min-h-screen bg-gradient-to-b from-white to-gray-100 dark:from-gray-900 dark:to-black text-black dark:text-white px-4 py-8">
       <div className="flex justify-between mb-4">
         <h1 className="text-3xl font-bold">🛍️ E-Commerce Customer Analyzer</h1>
+        <button type="button" onClick={exportHistory} className="bg-yellow-400 px-4 py-2 rounded">📤 Export CSV</button>
         <button onClick={toggleTheme} className="px-3 py-1 bg-gray-200 rounded dark:bg-gray-700">🌗 Toggle Theme</button>
       </div>
-      <button type="button" onClick={exportHistory} className="bg-yellow-400 px-4 py-2 rounded">📤 Export CSV</button>
+      
 
 
       <form onSubmit={handleSubmit} className="bg-white dark:bg-gray-800 p-6 rounded shadow space-y-4">

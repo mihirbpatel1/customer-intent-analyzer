@@ -119,15 +119,6 @@ Click the **📤 Export CSV** button to download all predictions saved locally i
 
 ---
 
-## 📌 To-Do / Improvements
-
-- [ ] Add user authentication
-- [ ] Connect to a database for persistent logging
-- [ ] Enhance model with deep learning
-- [ ] Improve mobile responsiveness
-
----
-
 ## 📄 License
 
 MIT License — free to use and modify!

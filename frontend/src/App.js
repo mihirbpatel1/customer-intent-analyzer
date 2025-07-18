@@ -85,6 +85,27 @@ export default function App() {
   const toggleTheme = () => {
     document.documentElement.classList.toggle("dark");
   };
+  const exportHistory = () => {
+    if (history.length === 0) {
+      alert("No history to export.");
+      return;
+    }
+
+    const headers = Object.keys(history[0].input).concat(["label", "confidence", "timestamp"]);
+    const rows = history.map(entry => {
+      return headers.map(key => entry.input[key] ?? entry[key] ?? "").join(",");
+    });
+
+    const csvContent = [headers.join(","), ...rows].join("\n");
+
+    const blob = new Blob([csvContent], { type: "text/csv;charset=utf-8;" });
+    const link = document.createElement("a");
+    link.href = URL.createObjectURL(blob);
+    link.setAttribute("download", "prediction_history.csv");
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
 
   const summaryData = [
     { label: "Normal", count: history.filter(h => h.label === "Normal").length },
@@ -104,6 +125,8 @@ export default function App() {
         <h1 className="text-3xl font-bold">🛍️ E-Commerce Customer Analyzer</h1>
         <button onClick={toggleTheme} className="px-3 py-1 bg-gray-200 rounded dark:bg-gray-700">🌗 Toggle Theme</button>
       </div>
+      <button type="button" onClick={exportHistory} className="bg-yellow-400 px-4 py-2 rounded">📤 Export CSV</button>
+
 
       <form onSubmit={handleSubmit} className="bg-white dark:bg-gray-800 p-6 rounded shadow space-y-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">

@@ -60,7 +60,7 @@ export default function App() {
 
     try {
       setLoading(true);
-      const res = await axios.post("http://localhost:8004/predict", preparedData);
+      const res = await axios.post("https://ade6b942-0be5-443d-b09a-3a921b665967-00-3q8ldy4vcsp7q.janeway.replit.dev/predict", preparedData);
       setResult(res.data.label);
       setConfidence(res.data.confidence);
       setHistory([...history, res.data]);
